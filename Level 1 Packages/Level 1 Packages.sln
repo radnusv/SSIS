@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "Level 1 Packages", "Level 1 Packages\Level 1 Packages.dtproj", "{8EDF4DD8-ABE7-4461-8146-68D15EEBC35B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EDF4DD8-ABE7-4461-8146-68D15EEBC35B}.Development|Default.ActiveCfg = Development
+		{8EDF4DD8-ABE7-4461-8146-68D15EEBC35B}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

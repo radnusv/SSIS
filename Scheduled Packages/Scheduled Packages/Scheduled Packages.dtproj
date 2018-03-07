@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>10.50.1600.1</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>Scheduled Packages.database</Name>
+    <FullPath>Scheduled Packages.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources />
+  <DataSourceViews />
+  <MiningModels />
+  <Roles />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage FormatVersion="3">
+      <Name>Acq_RefreshIns.dtsx</Name>
+      <FullPath>Acq_RefreshIns.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Acq_UpdateFaxStatuses.dtsx</Name>
+      <FullPath>Acq_UpdateFaxStatuses.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>AcqRefreshOrderIntake.dtsx</Name>
+      <FullPath>AcqRefreshOrderIntake.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>AHSVARTVisitReset.dtsx</Name>
+      <FullPath>AHSVARTVisitReset.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CIM_PopulateProcessQueue.dtsx</Name>
+      <FullPath>CIM_PopulateProcessQueue.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CPAP Load Patient Potential Table.dtsx</Name>
+      <FullPath>CPAP Load Patient Potential Table.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CPAP Nightly Job.dtsx</Name>
+      <FullPath>CPAP Nightly Job.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CPAP Order Selection.dtsx</Name>
+      <FullPath>CPAP Order Selection.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CPAP Process Monitor.dtsx</Name>
+      <FullPath>CPAP Process Monitor.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CPAP SLPQC 30 min Updater.dtsx</Name>
+      <FullPath>CPAP SLPQC 30 min Updater.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CPAPUnselectedSupplyOrders.dtsx</Name>
+      <FullPath>CPAPUnselectedSupplyOrders.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CPWDB_UpdateCMNStatuses.dtsx</Name>
+      <FullPath>CPWDB_UpdateCMNStatuses.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Daily Update Process.dtsx</Name>
+      <FullPath>Daily Update Process.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>DailyUpdateDenialProcess.dtsx</Name>
+      <FullPath>DailyUpdateDenialProcess.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>DeleteRoutesServiceProcessItemsDaily.dtsx</Name>
+      <FullPath>DeleteRoutesServiceProcessItemsDaily.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Dialer_PatientPay_Daily_RPT.dtsx</Name>
+      <FullPath>Dialer_PatientPay_Daily_RPT.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>McCMNRejections.dtsx</Name>
+      <FullPath>McCMNRejections.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>McPharmacyRejections.dtsx</Name>
+      <FullPath>McPharmacyRejections.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>MCRejection.dtsx</Name>
+      <FullPath>MCRejection.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Move CPAP Tables Nightly.dtsx</Name>
+      <FullPath>Move CPAP Tables Nightly.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>O2Cap_NightlyUpdate.dtsx</Name>
+      <FullPath>O2Cap_NightlyUpdate.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>O2Cap_Populate60monthSummaryReport.dtsx</Name>
+      <FullPath>O2Cap_Populate60monthSummaryReport.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>O2Cap_PopulatePendingOrders.dtsx</Name>
+      <FullPath>O2Cap_PopulatePendingOrders.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>O2Cap_UpdateRentalNums.dtsx</Name>
+      <FullPath>O2Cap_UpdateRentalNums.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>O2CapUpdateEMRCMNStatus.dtsx</Name>
+      <FullPath>O2CapUpdateEMRCMNStatus.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Populate Balance and Denials.dtsx</Name>
+      <FullPath>Populate Balance and Denials.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Populate_MonthArchiveTables.dtsx</Name>
+      <FullPath>Populate_MonthArchiveTables.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PopulateRoutingComplianceReportData.dtsx</Name>
+      <FullPath>PopulateRoutingComplianceReportData.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PopulateUPSExportRoutes.dtsx</Name>
+      <FullPath>PopulateUPSExportRoutes.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PPS_AR_Weekly.dtsx</Name>
+      <FullPath>PPS_AR_Weekly.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PPS_ARhourlyUpdates.dtsx</Name>
+      <FullPath>PPS_ARhourlyUpdates.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PPS_Orders_Update.dtsx</Name>
+      <FullPath>PPS_Orders_Update.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PPS_RefreshPWEPaperwork.dtsx</Name>
+      <FullPath>PPS_RefreshPWEPaperwork.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PPS_UpdateOrderDetails.dtsx</Name>
+      <FullPath>PPS_UpdateOrderDetails.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PPSApp Tables Refresh 1-34.dtsx</Name>
+      <FullPath>PPSApp Tables Refresh 1-34.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PPSApp Tables Refresh 2-34.dtsx</Name>
+      <FullPath>PPSApp Tables Refresh 2-34.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Refresh RET Dashboard.dtsx</Name>
+      <FullPath>Refresh RET Dashboard.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Transfer ATHMAS34.dtsx</Name>
+      <FullPath>Transfer ATHMAS34.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Transfer EmployeeList.dtsx</Name>
+      <FullPath>Transfer EmployeeList.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Transfer O2 Billing Status.dtsx</Name>
+      <FullPath>Transfer O2 Billing Status.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>TRANSFER PRINTERS.dtsx</Name>
+      <FullPath>TRANSFER PRINTERS.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Transfer RENMAS New34.dtsx</Name>
+      <FullPath>Transfer RENMAS New34.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Transfer TIMS3_0 Tables.dtsx</Name>
+      <FullPath>Transfer TIMS3_0 Tables.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>TransferCMNMASToPPSAPP.dtsx</Name>
+      <FullPath>TransferCMNMASToPPSAPP.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Truncate NOVSQLPROD03 Database Logs.dtsx</Name>
+      <FullPath>Truncate NOVSQLPROD03 Database Logs.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>WorkFlowMS_EvalutateFaxServerFaxStatuses.dtsx</Name>
+      <FullPath>WorkFlowMS_EvalutateFaxServerFaxStatuses.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>WorkFlowMS_Update_Submit.dtsx</Name>
+      <FullPath>WorkFlowMS_Update_Submit.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>WorkFlowMS_WorkFlowItemCustodian_ProcessQueue.dtsx</Name>
+      <FullPath>WorkFlowMS_WorkFlowItemCustodian_ProcessQueue.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CleanUp_PPS_ARTasks.dtsx</Name>
+      <FullPath>CleanUp_PPS_ARTasks.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>

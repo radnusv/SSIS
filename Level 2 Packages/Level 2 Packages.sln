@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "Level 2 Packages", "Level 2 Packages\Level 2 Packages.dtproj", "{C13B87F0-6086-46E5-B98F-7950A9623115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C13B87F0-6086-46E5-B98F-7950A9623115}.Development|Default.ActiveCfg = Development
+		{C13B87F0-6086-46E5-B98F-7950A9623115}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
